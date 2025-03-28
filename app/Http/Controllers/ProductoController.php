@@ -31,7 +31,7 @@ class ProductoController extends Controller
             array_unshift($imagenes, $producto->imagen_url);
         }
         
-        return view('Detalleproducto', compact('producto', 'imagenes'));
+        return view('productosDetalles', compact('producto', 'imagenes'));
     }
     
 }

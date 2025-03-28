@@ -1,6 +1,15 @@
 @extends('layouts.app')
+
 @section('content')
-    <h1 class="text-center text-gray-800 text-2xl font-medium">Elige una categoria</h1>
+    <!-- Encabezado con título y enlace "Volver" -->
+    <div class="flex justify-between items-center mb-6 px-4">
+        <h1 class="text-2xl font-medium text-gray-800">
+            Elige una categoría
+        </h1>
+        <a href="{{ route('home') }}" class="text-blue-600 hover:text-blue-800">
+            Volver
+        </a>
+    </div>
 
     <div class="flex flex-wrap justify-evenly mt-4 gap-4">
         @foreach($categorias as $categoria)
