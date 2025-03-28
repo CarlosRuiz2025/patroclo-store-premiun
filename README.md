@@ -1,3 +1,9 @@
+# Proyecto
+Carlos Andrés Ruiz Miranda
+
+# Link de Video
+https://youtu.be/uw4j6Eu-KR8
+
 # patroclo-store-premiun
  Pagina Web con el curso de taller de programacion Web Laravel
 
